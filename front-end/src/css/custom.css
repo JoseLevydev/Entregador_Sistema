@@ -1,0 +1,29 @@
+.rc-time-picker {
+  display: flex; /* Flexbox para alinhar o conteúdo */
+  align-items: center;
+}
+
+.rc-time-picker-input {
+  border: none; /* Remove a borda do input */
+  outline: none; /* Remove o contorno ao clicar */
+  text-align: center; /* Centraliza o texto dentro do input */
+  height: 100%;
+  font-size: 1rem; /* Aumenta o tamanho do texto */
+  padding: 0.5rem; /* Ajuste o preenchimento conforme necessário */
+}
+
+.rc-time-picker-input:focus {
+  box-shadow: none; /* Remove qualquer sombra ao focar */
+}
+
+.rc-time-picker-clear {
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100%; /* Garante que o botão ocupe toda a altura do contêiner */
+  width: 40px; /* Ajuste a largura conforme necessário */
+  margin-left: 8px; /* Margem à esquerda para espaçamento */
+}
+
+.rc-time-picker-clear-icon {
+  font-size: 2rem;
+}

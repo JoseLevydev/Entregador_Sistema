@@ -1,0 +1,9 @@
+.file-input-secondary::file-selector-button {
+  background-color: #a72727 !important; /* Cor do botão */
+  color: white !important; /* Cor do texto do botão */
+  border: none !important;
+}
+
+.file-input-secondary {
+  border: 1px solid rgb(119, 119, 119) !important; /* Cor da borda */
+}
